@@ -30,7 +30,7 @@
 
 - **ai-translate** — `Go` · `macOS` · a local English coach disguised as a translator. Two global hotkeys: one translates EN↔ES, the other reads your English *as if a Spanish speaker wrote it* and turns every mistake into a categorized micro-lesson. Weekly digests, spaced repetition built from your own past corrections, everything in local SQLite.
 
-- **[zenithpay-retry](https://github.com/eabugauch/zenithpay-retry)** — payment retry orchestration: classifies soft vs. hard declines, schedules retries on that classification instead of a blind fixed backoff, tracks the full transaction lifecycle and reports recovery analytics. The everyday shape of the work — the money that gets lost between "declined" and "actually unrecoverable."
+- **zenithpay-retry** — payment retry orchestration: classifies soft vs. hard declines, schedules retries on that classification instead of a blind fixed backoff, tracks the full transaction lifecycle and reports recovery analytics. The everyday shape of the work — the money that gets lost between "declined" and "actually unrecoverable."
 
 ---
 
@@ -43,9 +43,3 @@
 **Strict by default.** `mypy --strict`, `ruff`, real test suites, CI. Tooling that says "no" early is cheaper than a code review that says "no" late.
 
 **Documentation is part of the deliverable.** Every repo carries the *why*: a PRD, a roadmap, and an honest log of what was tried and discarded.
-
----
-
-### Elsewhere
-
-[![GitHub](https://img.shields.io/badge/legacy%20account-eabugauch-181717?style=flat-square&logo=github)](https://github.com/eabugauch)
